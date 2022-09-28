@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      
+    <style>
+             p{
+                font-family: 'Poppins', sans-serif;
+             }
+            .card{
+                margin-left: 25px;
+                margin-top: 50px;
+                box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+                border: none;
+            }
+            .main{
+                width: 250px;
+                height: 250px;
+            }
+            .text-1{
+                padding-left: 10px;
+                display: block;
+                font-weight: 700;
+                margin-top: -0.2px;
+            }
+            .not-main{
+                 border-radius: 30px;
+                 width: 40px;
+                 margin-left: 10px ;
+                 margin-top: -10px;
+            }
+            .mutual{
+                 vertical-align: top;
+                 font-size: small;
+                 margin-top: -3px;
+                 color:  rgb(96, 96, 96);
+            }
+           
+            input{
+                padding: 1em 2em;
+                margin-left: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                background: rgb(67, 67, 202);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            .bunch{
+                display: grid;
+                grid-template-columns: 275px 275px 275px;
+            }
+            .first{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+                column-gap: 10px;
+                align-items: center;
+            }
+    </style>
+  </head>
+  <body>
+    <div class="bunch">
+
+      <div class="card">
+        <div><img class="main" src="profile-pics/dog1.jpg" alt=""></div>
+        <p class="text-1">Oliver</p>
+        <div class="first">
+            <div class="profile"><img class="not-main" src="profile-pics/puppy3.jpg" alt=""></div>
+            <p class="mutual"> 2 mutual friends</p>
+        </div>
+        
+        <div><input type="submit" value="Add Friend"></div>
+      </div>
+
+
+      <div class="card">
+        <div><img class="main" src="profile-pics/dog2.jpg" alt=""></div>
+        <p class="text-1">Oliver</p>
+        <div class="first">
+            <div class="profile"><img class="not-main" src="profile-pics/puppy.jpg" alt=""></div>
+            <p class="mutual"> 2 mutual friends</p>
+        </div>
+       
+        <div><input type="submit" value="Add Friend"></div>
+      </div>
+
+
+      <div class="card">
+        <div><img class="main" src="profile-pics/dog3.jpg" alt=""></div>
+        <p class="text-1">Oliver</p>
+        <div class="first">
+            <div class="profile"><img class="not-main" src="profile-pics/puppy2.jpg" alt=""></div>
+            <p class="mutual"> 2 mutual friends</p>
+        </div>
+        
+        <div><input type="submit" value="Add Friend"></div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      font-family: "Roboto Slab", serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      background: rgb(113, 35, 113);
+      align-items: center;
+      padding-top: 0.1em;
+      padding-bottom: 0.1em;
+      margin: 5em 5em;
+    }
+    .text-1 {
+      color: white;
+      font-weight: bold;
+      margin-left: 20px;
+      margin-right: 90px;
+    }
+
+    .bar {
+      padding-right: 40em;
+      padding-top: 0.7em;
+      padding-bottom: 0.7em;
+      padding-left: 1em;
+      border-radius: 1.7em;
+      border: none;
+      font-weight: 500;
+    }
+    ::-webkit-input-placeholder {
+      padding-top: -3em;
+    }
+    .down {
+      margin-left: 7em;
+    }
+
+    .btn {
+      border: 1.3px solid white;
+      background: rgb(113, 35, 113);
+      color: white;
+      padding: 8px 15px;
+      font-weight: 700;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        padding: 2em  2em;
+        
+        margin: 0em 20em;
+        border: 1px solid black;
+        border-radius: 1em;
+    }
+    .row1{
+       display: grid;
+       grid-template-columns: 300px 1fr;
+       font-weight: bold; 
+        
+    }
+
+    a{
+        border-radius: 10px;
+        background: rgb(46, 46, 231);
+        padding-top: -1em;
+        text-decoration: none;
+        padding-left: .8em;
+        padding-right: .8em;
+        color: white;
+       
+    }
+
+    .THE{
+        margin-top: .8em;
+        margin-left: 14em;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="text-1"><p>Home</p></div>
+      <div class="search">
+        <input class="bar" type="text" placeholder="Search" />
+      </div>
+      <div class="down">
+        <input class="btn" type="submit" value="Download" />
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="row1">
+           <div><p>Home</p></div>
+           <div class="THE"><a href="#">14</a></div>
+      </div>
+      <div class="row1" >
+       <div><p>Notifications</p></div> 
+       <div class="THE"><a href="#">3</a></div>
+      </div>
+      <div class="row1">
+        <p>Messages</p>
+        <div class="THE"><a href="#">5</a></div>
+      </div>
+    </div>
+  </body>
+</html>
